@@ -4181,7 +4181,7 @@ function(e) {
 					}, r.map(function(e) {
 						return v["default"].createElement(C["default"], {
 							onClick: function() {
-								b["default"].push("/messages.php?eid=" + e.id)
+								b["default"].push("/messages/" + e.id)
 							},
 							key: e.id,
 							className: w["default"].item,
